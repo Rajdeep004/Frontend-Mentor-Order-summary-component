@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-paleBlue h-screen flex justify-center items-center">
+    <div class="hidden md:block"> <img class="bg-cover absolute w-full -z-10 inset-0" src="images/pattern-background-desktop.svg" alt=""> </div>
+    <div class="bg-white max-w-[85%] sm:max-w-lg rounded-3xl shadow-lg pb-4">
+      <img
+        class="w-full rounded-t-3xl mb-5"
+        src="images/illustration-hero.svg"
+        alt="Dancing Girl on the Music!!"
+      />
+
+      <div class="text-center flex flex-col mx-12 mt-10 space-y-4">
+        
+        <h1 class="text-3xl font-sans font-black mt-3"> Order Summary </h1>
+
+        <p class="font-medium text-gray-500 text-xl my-24">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <div class="bg-veryPaleBlue rounded-2xl flex w-full p-2">
+          <img class="w-24 py-4" src="images/icon-music.svg" alt="" />
+          <div class="my-auto w-10/12 text-left ml-5 space-y-2">
+            <div class="font-bold text-xl">
+              Annual Plan<br />
+              <span class="text-gray-500 text-lg">$59.99/year</span>
+            </div>
+          </div>
+          <div
+            class="underline text-brightBlue hover:cursor-pointer my-auto mr-5 font-bold text-lg hover:opacity-70"
+          >
+            Change
+          </div>
+        </div>
+        <button class="btn text-white bg-brightBlue shadow-2xl hover:bg-opacity-70">Proceed to Payment</button>
+        <button class="btn text-gray-600 hover:text-black hover:font-bold">Cancel Order</button>
+      </div>
+    </div>
+  </body>
+</html>
